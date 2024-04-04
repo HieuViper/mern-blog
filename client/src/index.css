@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.width-wrapper {
+  @apply xl:w-[1100px] lg:w-[1000px] w-full;
+}
+.nav-link {
+  @apply h-full hover:text-cyan-400 hover:border-b-2 hover:border-b-cyan-400 flex items-center duration-150;
+}
